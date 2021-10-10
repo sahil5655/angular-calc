@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { AdditionComponent } from './addition/addition.component';
 import { FormsModule } from '@angular/forms';
 import { SubstractionComponent } from './substraction/substraction.component';
+import { DivisionComponent } from './division/division.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AdditionComponent,
-    SubstractionComponent
+    SubstractionComponent,
+    DivisionComponent
   ],
   imports: [
     BrowserModule,
