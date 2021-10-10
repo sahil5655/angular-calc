@@ -23,7 +23,7 @@ export class SubractionComponent implements OnInit {
     } else if(this.val1 < this.val2) {
       this.showError = true;
     } else {
-      this.val3 = this.val1 - this.val2;
+      this.val3 = this.val1 * this.val2;
       this.showError = false;
       this.invalidInputs = false;
     }
