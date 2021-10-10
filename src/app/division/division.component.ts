@@ -26,7 +26,7 @@ export class DivisionComponent implements OnInit {
       console.log(this.val3);
     
       if(this.val2 === 0 ){
-        this.val3 = 'We need to show conflicts';
+        this.val3 = 'We need to show conflicts    Now i will resolve conflicts Commit';
       }
       if(this.val1 === 0 && this.val2 ===0 ){
         this.val3 = '0';
